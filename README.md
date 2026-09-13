@@ -1,79 +1,104 @@
 <div align="center">
 
-  <!-- Dynamic Typing Header -->
-  <a href="https://github.com/AdityaNakhale">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Aditya+Nakhale+%F0%9F%91%8B;Backend+%26+Full-Stack+Developer;Java+%7C+Spring+Boot+%7C+Node.js+%7C+Next.js;Building+Scalable+Web+Applications" alt="Typing SVG" />
-  </a>
+  <!-- Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,36&height=120&section=header&text=Aditya%20Nakhale&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header" />
 
+  <!-- Profile Card Showcase -->
+  <table border="0">
+    <tr>
+      <td width="300" align="center" valign="middle">
+        <a href="https://github.com/AdityaNakhale">
+          <img src="https://github.com/AdityaNakhale.png" width="140" style="border-radius: 50%; border: 3px solid #6366f1;" alt="Aditya Nakhale Profile" />
+        </a>
+        <br />
+        <h3>Aditya Suresh Nakhale</h3>
+        <p><strong>Backend & Full-Stack Developer</strong></p>
+        <p>📍 Amravati, India</p>
+        <a href="https://linkedin.com/in/aditya-nakhale-a63b67319">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        <a href="mailto:adityanakhale0@gmail.com">
+          <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+      </td>
+      <td width="550" valign="top">
+        <!-- Animated Typing Subtitle -->
+        <a href="https://github.com/AdityaNakhale">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=6366F1&center=false&vCenter=true&width=520&lines=Software+%26+Backend+Developer;Java+%7C+Spring+Boot+%7C+Node.js+%7C+Next.js;Scalable+APIs+%7C+Distributed+Architecture;2026+BCA+Graduate" alt="Typing SVG" />
+        </a>
+        <br /><br />
+        <p>
+          🎓 <strong>Education:</strong> BCA (Batch 2026), Sant Gadge Baba Amravati University<br />
+          💼 <strong>Experience:</strong> Ex-Backend Developer Intern @ JK Innovative Pvt. Ltd.<br />
+          ⚡ <strong>Focus:</strong> Scalable REST APIs, MVC Architecture & Database Optimization<br />
+          ☁️ <strong>Learning:</strong> Google Cloud Arcade Participant<br />
+          🏆 <strong>Honor:</strong> 1st Prize Winner — College Level Coding Competition
+        </p>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-success?style=flat-square" alt="Status" />
+          <img src="https://img.shields.io/badge/Target-Software_Engineering-blueviolet?style=flat-square" alt="Goal" />
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Profile Views -->
   <p align="center">
-    <strong>Aspiring Software Engineer</strong> passionate about designing high-performance REST APIs, database optimization, and scalable web architectures.
+    <img src="https://komarev.com/ghpvc/?username=AdityaNakhale&label=Profile%20Views&color=6366f1&style=flat-square" alt="Profile Views" />
   </p>
 
-  <!-- Quick Social Badges -->
-  <p align="center">
-    <a href="https://linkedin.com/in/aditya-nakhale-a63b67319"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:adityanakhale0@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://skills.google/public_profiles/64a46582"><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud Arcade" /></a>
-  </p>
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,36&height=100&section=header"/>
 </div>
 
 ---
 
 ### 💫 About Me
 
-* 🎓 **BCA Graduate (Batch 2026)** with focused hands-on experience across backend systems and full-stack engineering[cite: 1].
-* 💼 **Ex-Backend Developer Intern** at **JK Innovative Pvt. Ltd.**, building production APIs, slashing query latency by 30% with Prisma ORM, and serving 1,000+ active users[cite: 1].
-* 🛠️ Deeply invested in **MVC architecture**, distributed endpoints, schema design, and seamless third-party integrations (Google Maps, Dropbox)[cite: 1].
-* ☁️ Active participant in the **Google Cloud Arcade Program**[cite: 1].
+* 🎓 **BCA Graduate (Batch 2026)** with practical experience across high-traffic REST APIs, MVC services, and end-to-end full-stack systems[cite: 1].
+* 💼 **Ex-Backend Developer Intern** at **JK Innovative Pvt. Ltd.**, building production APIs, cutting database latency by 30%, and maintaining 99.9% uptime for 1,000+ users[cite: 1].
+* ⚙️ Strong foundational background in **Object-Oriented Programming (OOP)**, **MVC Architecture**, and **Database Performance Tuning**[cite: 1].
+* ☁️ Active participant in the **Google Cloud Arcade** program[cite: 1].
 * 🏆 **1st Prize Winner** at a College-Level Coding Competition[cite: 1].
 
 ---
 
-### 🧰 Tech Stack & Skills
+### 🛠️ Tech Stack & Arsenal
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,nodejs,nestjs,nextjs,postgres,mysql,prisma,c,cpp,js,html,css,git,github,vscode" alt="Tech Stack Icons" />
+  </a>
+</div>
+
+<br />
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | Java, JavaScript, C, C++, SQL, HTML5, CSS3[cite: 1] |
+| **Backend Frameworks** | Spring Boot, Node.js, Nest.js, Java Servlets, JSP, Thymeleaf[cite: 1] |
+| **Databases & ORM** | PostgreSQL, MySQL, Prisma ORM, Spring Data JPA / Hibernate[cite: 1] |
+| **Web & Architecture** | REST APIs, HTTP, MVC Architecture, Object-Oriented Design[cite: 1] |
+| **APIs & Tools** | Git, GitHub, VS Code, Apache NetBeans, Google Maps APIs, Dropbox APIs[cite: 1] |
+
+---
+
+### 💼 Work Experience
 
 <table>
   <tr>
-    <td align="center" width="130"><strong>Languages</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" />
-      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+    <td width="75%">
+      <strong>Backend Developer Intern</strong> • <em>JK Innovative Pvt. Ltd.</em>[cite: 1]<br />
+      <small>Jun 2025 – Sep 2025</small>[cite: 1]
+      <ul>
+        <li>Architected and delivered a Node.js & PostgreSQL REST API handling ~100 daily requests for a live Career Portfolio Generator[cite: 1].</li>
+        <li>Built a Prisma ORM data access layer that reduced database query latency by <strong>30%</strong>[cite: 1].</li>
+        <li>Delivered a Next.js / Nest.js / MySQL application supporting <strong>1,000+ users</strong> at <strong>99.9% uptime</strong> and <strong>~200ms latency</strong>[cite: 1].</li>
+        <li>Integrated Dropbox APIs alongside a 5-member engineering team for secure file management across 500+ users[cite: 1].</li>
+      </ul>
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="130"><strong>Frameworks & Web</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="Nest.js" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
-      <img src="https://img.shields.io/badge/REST_APIs-009688?style=flat-square&logo=fastapi&logoColor=white" alt="REST APIs" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="130"><strong>Databases & ORM</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-      <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="Hibernate" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="130"><strong>Developer Tools</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-      <img src="https://img.shields.io/badge/Google_Maps_API-4285F4?style=flat-square&logo=google-maps&logoColor=white" alt="Google Maps" />
-      <img src="https://img.shields.io/badge/Dropbox_API-0061FF?style=flat-square&logo=dropbox&logoColor=white" alt="Dropbox" />
+    <td width="25%" align="center" valign="middle">
+      <img src="https://img.shields.io/badge/Uptime-99.9%25-brightgreen?style=flat-square" alt="Uptime" /><br /><br />
+      <img src="https://img.shields.io/badge/Latency-30%25_Faster-blue?style=flat-square" alt="Latency" /><br /><br />
+      <img src="https://img.shields.io/badge/Users-1%2C000%2B-orange?style=flat-square" alt="Users" />
     </td>
   </tr>
 </table>
@@ -86,25 +111,26 @@
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">🍲 Food Rescue AI</h3>
-      <p align="center"><em>Smart food allocation & NGO dispatch platform</em></p>
+      <p align="center"><em>Smart food allocation & real-time NGO dispatch platform</em>[cite: 1]</p>
       <ul>
-        <li>Built an automated matching engine routing surplus food to nearby shelters using <strong>Google Maps Distance Matrix & Geocoding APIs</strong>[cite: 1].</li>
-        <li>Implemented a structured 4-stage lifecycle: <code>Pending</code> ➔ <code>Allocated</code> ➔ <code>Claimed</code> ➔ <code>Rescued</code>[cite: 1].</li>
-        <li>Dynamic dashboards built with <strong>Spring Boot</strong>, <strong>Thymeleaf</strong>, and <strong>MySQL / PostgreSQL</strong>[cite: 1].</li>
+        <li>Built full-stack service with <strong>Spring Boot</strong>, <strong>Thymeleaf</strong>, and <strong>MySQL / PostgreSQL</strong>[cite: 1].</li>
+        <li>Designed a rule-based matching engine balancing proximity, shelf life, and NGO capacity[cite: 1].</li>
+        <li>Integrated <strong>Google Maps Geocoding & Distance Matrix APIs</strong> for real-time travel and distance optimization[cite: 1].</li>
+        <li>Managed a 4-stage tracking workflow: <code>Pending</code> ➔ <code>Allocated</code> ➔ <code>Claimed</code> ➔ <code>Rescued</code>[cite: 1].</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
+        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Boot" />
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=flat-square&logo=google-maps&logoColor=white" alt="Maps" />
+        <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=flat-square&logo=google-maps&logoColor=white" alt="Google Maps" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🎓 Career Portfolio Generator</h3>
-      <p align="center"><em>Automated digital resume & portfolio builder</em></p>
+      <p align="center"><em>Automated dynamic digital portfolio builder for students</em>[cite: 1]</p>
       <ul>
-        <li>Engineered dynamic form workflows converting inputs into responsive web portfolio pages[cite: 1].</li>
-        <li>Implemented cleanly separated <strong>MVC architecture</strong> with <strong>Java Servlets</strong>, <strong>JSP</strong>, and <strong>MySQL</strong>[cite: 1].</li>
-        <li>Integrated live rendering pipelines with scalable session handling[cite: 1].</li>
+        <li>Structured strictly around <strong>MVC Architecture</strong> using <strong>Java Servlets</strong>, <strong>JSP</strong>, and <strong>MySQL</strong>[cite: 1].</li>
+        <li>Engineered form handling workflows to capture credentials and render responsive templates[cite: 1].</li>
+        <li>Designed session management pipelines enabling instant sharing of personal portfolio pages[cite: 1].</li>
       </ul>
       <p align="center">
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
@@ -117,14 +143,16 @@
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 📊 GitHub Activity & Analytics
 
 <div align="center">
   <img height="165em" src="https://github-readme-stats.vercel.app/api?username=AdityaNakhale&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="Aditya's GitHub Stats" />
+  &nbsp;
   <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaNakhale&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 <div align="center">
+  <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AdityaNakhale&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
@@ -134,14 +162,14 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/aditya-nakhale-a63b67319">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Connect" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:adityanakhale0@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Send_Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email" />
+    <img src="https://img.shields.io/badge/Email-Send_Message-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,36&height=80&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,36&height=80&section=footer" width="100%" alt="Footer" />
 </div>
