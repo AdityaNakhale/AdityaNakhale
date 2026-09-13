@@ -1,48 +1,52 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,36&height=120&section=header&text=Aditya%20Nakhale&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header" />
+  <!-- Dynamic Wavy 3D Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,36&height=140&section=header&text=Aditya%20Nakhale&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header" />
 
-  <!-- Profile Card Showcase -->
-  <table border="0">
+  <!-- 3D Profile Card Container -->
+  <table>
     <tr>
-      <td width="300" align="center" valign="middle">
+      <td align="center" width="260" style="padding: 20px; background: #0d1117;">
         <a href="https://github.com/AdityaNakhale">
-          <img src="https://github.com/AdityaNakhale.png" width="140" style="border-radius: 50%; border: 3px solid #6366f1;" alt="Aditya Nakhale Profile" />
-        </a>
-        <br />
-        <h3>Aditya Suresh Nakhale</h3>
-        <p><strong>Backend & Full-Stack Developer</strong></p>
-        <p>📍 Amravati, India</p>
-        <a href="https://linkedin.com/in/aditya-nakhale-a63b67319">
-          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="mailto:adityanakhale0@gmail.com">
-          <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-      </td>
-      <td width="550" valign="top">
-        <!-- Animated Typing Subtitle -->
-        <a href="https://github.com/AdityaNakhale">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=6366F1&center=false&vCenter=true&width=520&lines=Software+%26+Backend+Developer;Java+%7C+Spring+Boot+%7C+Node.js+%7C+Next.js;Scalable+APIs+%7C+Distributed+Architecture;2026+BCA+Graduate" alt="Typing SVG" />
+          <img src="https://images.weserv.nl/?url=https://github.com/AdityaNakhale.png&w=150&h=150&fit=cover&mask=circle&shadow=10,0,0,0.6" width="130" alt="Aditya Nakhale" />
         </a>
         <br /><br />
-        <p>
-          🎓 <strong>Education:</strong> BCA (Batch 2026), Sant Gadge Baba Amravati University<br />
-          💼 <strong>Experience:</strong> Ex-Backend Developer Intern @ JK Innovative Pvt. Ltd.<br />
-          ⚡ <strong>Focus:</strong> Scalable REST APIs, MVC Architecture & Database Optimization<br />
-          ☁️ <strong>Learning:</strong> Google Cloud Arcade Participant<br />
-          🏆 <strong>Honor:</strong> 1st Prize Winner — College Level Coding Competition
-        </p>
-        <p>
-          <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-success?style=flat-square" alt="Status" />
-          <img src="https://img.shields.io/badge/Target-Software_Engineering-blueviolet?style=flat-square" alt="Goal" />
-        </p>
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&pause=1000&color=6366F1&center=true&vCenter=true&width=220&lines=Aditya+Nakhale;Backend+Engineer" alt="Name Typing" />
+        <br />
+        <img src="https://img.shields.io/badge/📍_Amravati-India-1e1b4b?style=flat-square" alt="Location" />
+        <br /><br />
+        <a href="https://linkedin.com/in/aditya-nakhale-a63b67319">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="26" alt="LinkedIn" />
+        </a>
+        <a href="mailto:adityanakhale0@gmail.com">
+          <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="26" alt="Email" />
+        </a>
+      </td>
+      <td width="580" style="padding: 20px; background: #0d1117;">
+        <a href="https://github.com/AdityaNakhale">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=818CF8&center=false&vCenter=true&width=550&lines=Software+%26+Backend+Developer;Java+%7C+Spring+Boot+%7C+Node.js+%7C+Nest.js;Building+Scalable+Production+Systems;2026+BCA+Graduate" alt="Role Typing" />
+        </a>
+        <br /><br />
+        🎓 <b>Education:</b> BCA (2026) • Sant Gadge Baba Amravati University<br />
+        💼 <b>Experience:</b> Ex-Backend Developer Intern @ JK Innovative Pvt. Ltd.<br />
+        ⚡ <b>Specialization:</b> REST APIs, MVC Architecture & Database Tuning<br />
+        ☁️ <b>Learning:</b> Active participant in Google Cloud Arcade<br />
+        🏆 <b>Achievements:</b> 1st Prize Winner — College Level Coding Contest
+        <br /><br />
+        <img src="https://img.shields.io/badge/Uptime-99.9%25-059669?style=for-the-badge" alt="Uptime" />
+        <img src="https://img.shields.io/badge/Latency--30%25-2563eb?style=for-the-badge" alt="Latency Cut" />
+        <img src="https://img.shields.io/badge/Scale-1%2C000%2B_Users-7c3aed?style=for-the-badge" alt="Users" />
       </td>
     </tr>
   </table>
 
-  <!-- Profile Views -->
+  <!-- Animated Terminal Typing Strip -->
+  <br />
+  <a href="https://github.com/AdityaNakhale">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=echo+'Crafting+high-performance+APIs+and+modern+web+solutions...';echo+'Status:+Ready+to+build+scalable+production+systems.';" alt="Terminal Typing" />
+  </a>
+
+  <!-- Profile Visitor Counter -->
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=AdityaNakhale&label=Profile%20Views&color=6366f1&style=flat-square" alt="Profile Views" />
   </p>
