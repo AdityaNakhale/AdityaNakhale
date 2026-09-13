@@ -1,48 +1,160 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,36&height=120&section=header&text=Aditya%20Nakhale&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header" />
+  <!-- ==================== 3D GLASSMORPHIC PROFILE HERO CARD ==================== -->
+  <svg width="100%" height="340" viewBox="0 0 850 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- 3D Gradients -->
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="850" y2="340" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="45%" stop-color="#1e1b4b" />
+        <stop offset="100%" stop-color="#090d16" />
+      </linearGradient>
+      
+      <linearGradient id="borderGrad" x1="0" y1="0" x2="850" y2="340" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#818cf8" stop-opacity="0.8" />
+        <stop offset="35%" stop-color="#c084fc" stop-opacity="0.3" />
+        <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.2" />
+        <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.7" />
+      </linearGradient>
 
-  <!-- Profile Card Showcase -->
-  <table border="0">
-    <tr>
-      <td width="300" align="center" valign="middle">
-        <a href="https://github.com/AdityaNakhale">
-          <img src="https://github.com/AdityaNakhale.png" width="140" style="border-radius: 50%; border: 3px solid #6366f1;" alt="Aditya Nakhale Profile" />
-        </a>
-        <br />
-        <h3>Aditya Suresh Nakhale</h3>
-        <p><strong>Backend & Full-Stack Developer</strong></p>
-        <p>📍 Amravati, India</p>
-        <a href="https://linkedin.com/in/aditya-nakhale-a63b67319">
-          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="mailto:adityanakhale0@gmail.com">
-          <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-      </td>
-      <td width="550" valign="top">
-        <!-- Animated Typing Subtitle -->
-        <a href="https://github.com/AdityaNakhale">
-          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=6366F1&center=false&vCenter=true&width=520&lines=Software+%26+Backend+Developer;Java+%7C+Spring+Boot+%7C+Node.js+%7C+Next.js;Scalable+APIs+%7C+Distributed+Architecture;2026+BCA+Graduate" alt="Typing SVG" />
-        </a>
-        <br /><br />
-        <p>
-          🎓 <strong>Education:</strong> BCA (Batch 2026), Sant Gadge Baba Amravati University<br />
-          💼 <strong>Experience:</strong> Ex-Backend Developer Intern @ JK Innovative Pvt. Ltd.<br />
-          ⚡ <strong>Focus:</strong> Scalable REST APIs, MVC Architecture & Database Optimization<br />
-          ☁️ <strong>Learning:</strong> Google Cloud Arcade Participant<br />
-          🏆 <strong>Honor:</strong> 1st Prize Winner — College Level Coding Competition
-        </p>
-        <p>
-          <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-success?style=flat-square" alt="Status" />
-          <img src="https://img.shields.io/badge/Target-Software_Engineering-blueviolet?style=flat-square" alt="Goal" />
-        </p>
-      </td>
-    </tr>
-  </table>
+      <linearGradient id="avatarGlow" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#6366f1" />
+        <stop offset="50%" stop-color="#a855f7" />
+        <stop offset="100%" stop-color="#06b6d4" />
+      </linearGradient>
 
-  <!-- Profile Views -->
+      <linearGradient id="chipBg" x1="0" y1="0" x2="200" y2="40" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#312e81" stop-opacity="0.6" />
+        <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.8" />
+      </linearGradient>
+
+      <!-- 3D Ambient Blur Spheres -->
+      <radialGradient id="sphere1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700, 60) scale(180)">
+        <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4" />
+        <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+      </radialGradient>
+      <radialGradient id="sphere2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100, 270) scale(150)">
+        <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
+        <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+      </radialGradient>
+
+      <!-- 3D Isometric Drop Shadow -->
+      <filter id="cardShadow" x="-30" y="-20" width="910" height="390" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.65" />
+        <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#6366f1" flood-opacity="0.25" />
+      </filter>
+      
+      <filter id="avatarShadow" x="-20" y="-10" width="200" height="200" filterUnits="userSpaceOnUse">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.5" />
+      </filter>
+
+      <!-- Circular Avatar Clip -->
+      <clipPath id="avatarClip">
+        <circle cx="115" cy="140" r="62" />
+      </clipPath>
+    </defs>
+
+    <g filter="url(#cardShadow)">
+      <!-- Main Card Surface -->
+      <rect x="15" y="15" width="820" height="300" rx="24" fill="url(#bgGrad)" />
+      <!-- Ambient 3D Glow Spheres behind content -->
+      <circle cx="700" cy="60" r="180" fill="url(#sphere1)" />
+      <circle cx="100" cy="270" r="150" fill="url(#sphere2)" />
+      
+      <!-- Card Glossy Stroke -->
+      <rect x="15" y="15" width="820" height="300" rx="24" stroke="url(#borderGrad)" stroke-width="1.8" />
+    </g>
+
+    <!-- Isometric Decorative Geometric Lines (Top Right) -->
+    <g opacity="0.15" stroke="#ffffff" stroke-width="1">
+      <line x1="680" y1="20" x2="810" y2="150" />
+      <line x1="720" y1="20" x2="820" y2="120" />
+      <line x1="640" y1="20" x2="800" y2="180" />
+      <circle cx="760" cy="70" r="40" stroke="#818cf8" stroke-width="1.5" fill="none" />
+      <circle cx="760" cy="70" r="70" stroke="#c084fc" stroke-width="1" stroke-dasharray="4 4" fill="none" />
+    </g>
+
+    <!-- 3D Floating Avatar Frame -->
+    <g filter="url(#avatarShadow)">
+      <circle cx="115" cy="140" r="66" fill="url(#avatarGlow)" />
+      <circle cx="115" cy="140" r="63" fill="#0f172a" />
+      <image href="https://github.com/AdityaNakhale.png" x="53" y="78" width="124" height="124" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice" />
+    </g>
+
+    <!-- Online / Available Radar Pulse Badge -->
+    <circle cx="162" cy="188" r="10" fill="#0f172a" />
+    <circle cx="162" cy="188" r="7" fill="#22c55e" />
+    <circle cx="162" cy="188" r="11" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="7;15;7" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Left Column: Name & Micro Badges -->
+    <text x="115" y="235" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="20" fill="#ffffff">Aditya Nakhale</text>
+    <text x="115" y="258" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="12" fill="#94a3b8">📍 Amravati, India</text>
+
+    <!-- Vertical 3D Divider -->
+    <line x1="220" y1="45" x2="220" y2="285" stroke="#334155" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.6" />
+
+    <!-- Right Column Content -->
+    <!-- Role Heading -->
+    <text x="250" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#818cf8" letter-spacing="1.5">SOFTWARE &amp; BACKEND DEVELOPER</text>
+    <text x="250" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="25" fill="#f8fafc">Designing Robust APIs &amp; Scalable Systems</text>
+
+    <!-- Quick Attributes / Highlights -->
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#cbd5e1">
+      <!-- Item 1 -->
+      <circle cx="256" cy="130" r="4" fill="#6366f1" />
+      <text x="272" y="134"><tspan font-weight="700" fill="#ffffff">BCA Batch 2026</tspan> • Sant Gadge Baba Amravati University</text>
+      
+      <!-- Item 2 -->
+      <circle cx="256" cy="158" r="4" fill="#a855f7" />
+      <text x="272" y="162"><tspan font-weight="700" fill="#ffffff">Ex-Backend Intern</tspan> @ JK Innovative Pvt. Ltd. (Cut Latency 30%)</text>
+      
+      <!-- Item 3 -->
+      <circle cx="256" cy="186" r="4" fill="#38bdf8" />
+      <text x="272" y="190"><tspan font-weight="700" fill="#ffffff">Core Focus:</tspan> Java, Spring Boot, Node.js, Nest.js &amp; PostgreSQL</text>
+    </g>
+
+    <!-- 3D Pill Metrics across Bottom Right -->
+    <g transform="translate(250, 222)">
+      <!-- Metric 1 -->
+      <rect x="0" y="0" width="165" height="52" rx="12" fill="url(#chipBg)" stroke="#4338ca" stroke-width="1.2" />
+      <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#38bdf8">99.9% Uptime</text>
+      <text x="14" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#94a3b8">1,000+ Active Users</text>
+
+      <!-- Metric 2 -->
+      <rect x="180" y="0" width="165" height="52" rx="12" fill="url(#chipBg)" stroke="#7e22ce" stroke-width="1.2" />
+      <text x="194" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#c084fc">-30% Latency</text>
+      <text x="194" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#94a3b8">Prisma ORM Layer</text>
+
+      <!-- Metric 3 -->
+      <rect x="360" y="0" width="180" height="52" rx="12" fill="url(#chipBg)" stroke="#0e7490" stroke-width="1.2" />
+      <text x="374" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#2dd4bf">1st Prize Winner</text>
+      <text x="374" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#94a3b8">College Coding Contest</text>
+    </g>
+  </svg>
+
+  <!-- Interactive / Typist Subtitle -->
+  <a href="https://github.com/AdityaNakhale">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=818CF8&center=true&vCenter=true&width=650&lines=Java+%7C+Spring+Boot+%7C+Node.js+%7C+Nest.js+%7C+Next.js;Building+Scalable+Full-Stack+Platforms;Turning+Complex+Logic+Into+Clean+APIs" alt="Typing SVG" />
+  </a>
+
+  <!-- Quick Action Badges -->
+  <p align="center">
+    <a href="https://linkedin.com/in/aditya-nakhale-a63b67319">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="mailto:adityanakhale0@gmail.com">
+      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://skills.google/public_profiles/64a46582">
+      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
+    </a>
+  </p>
+
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=AdityaNakhale&label=Profile%20Views&color=6366f1&style=flat-square" alt="Profile Views" />
   </p>
@@ -53,7 +165,7 @@
 
 ### 💫 About Me
 
-* 🎓 **BCA Graduate (Batch 2026)** with practical experience across high-traffic REST APIs, MVC services, and end-to-end full-stack systems[cite: 1].
+* 🎓 **BCA Graduate (Batch 2026)** with focused hands-on experience designing REST APIs, MVC services, and production full-stack systems[cite: 1].
 * 💼 **Ex-Backend Developer Intern** at **JK Innovative Pvt. Ltd.**, building production APIs, cutting database latency by 30%, and maintaining 99.9% uptime for 1,000+ users[cite: 1].
 * ⚙️ Strong foundational background in **Object-Oriented Programming (OOP)**, **MVC Architecture**, and **Database Performance Tuning**[cite: 1].
 * ☁️ Active participant in the **Google Cloud Arcade** program[cite: 1].
